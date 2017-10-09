@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832A6D1B1F8548890033289B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A6D1A1F8548890033289B /* GLUT.framework */; };
+		832A6D1D1F8548940033289B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A6D1C1F8548940033289B /* OpenGL.framework */; };
+		832A6D281F85491B0033289B /* phong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832A6D261F85491B0033289B /* phong.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		832A6D0D1F8548770033289B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		832A6D0F1F8548770033289B /* PhongLighting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhongLighting; sourceTree = BUILT_PRODUCTS_DIR; };
+		832A6D1A1F8548890033289B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		832A6D1C1F8548940033289B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		832A6D1F1F8548D60033289B /* f3.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = f3.glsl; sourceTree = "<group>"; };
+		832A6D201F8548D60033289B /* f1.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = f1.glsl; sourceTree = "<group>"; };
+		832A6D211F8548D60033289B /* f2.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = f2.glsl; sourceTree = "<group>"; };
+		832A6D221F8548D60033289B /* v1.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = v1.glsl; sourceTree = "<group>"; };
+		832A6D231F8548D60033289B /* v2.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = v2.glsl; sourceTree = "<group>"; };
+		832A6D241F8548D60033289B /* v3.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = v3.glsl; sourceTree = "<group>"; };
+		832A6D251F8548E80033289B /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
+		832A6D261F85491B0033289B /* phong.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = phong.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832A6D0C1F8548770033289B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A6D1D1F8548940033289B /* OpenGL.framework in Frameworks */,
+				832A6D1B1F8548890033289B /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		832A6D061F8548770033289B = {
+			isa = PBXGroup;
+			children = (
+				832A6D251F8548E80033289B /* common */,
+				832A6D111F8548770033289B /* PhongLighting */,
+				832A6D101F8548770033289B /* Products */,
+				832A6D191F8548880033289B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		832A6D101F8548770033289B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832A6D0F1F8548770033289B /* PhongLighting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832A6D111F8548770033289B /* PhongLighting */ = {
+			isa = PBXGroup;
+			children = (
+				832A6D201F8548D60033289B /* f1.glsl */,
+				832A6D211F8548D60033289B /* f2.glsl */,
+				832A6D1F1F8548D60033289B /* f3.glsl */,
+				832A6D221F8548D60033289B /* v1.glsl */,
+				832A6D231F8548D60033289B /* v2.glsl */,
+				832A6D241F8548D60033289B /* v3.glsl */,
+				832A6D261F85491B0033289B /* phong.cpp */,
+			);
+			path = PhongLighting;
+			sourceTree = "<group>";
+		};
+		832A6D191F8548880033289B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832A6D1C1F8548940033289B /* OpenGL.framework */,
+				832A6D1A1F8548890033289B /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832A6D0E1F8548770033289B /* PhongLighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832A6D161F8548770033289B /* Build configuration list for PBXNativeTarget "PhongLighting" */;
+			buildPhases = (
+				832A6D0B1F8548770033289B /* Sources */,
+				832A6D0C1F8548770033289B /* Frameworks */,
+				832A6D0D1F8548770033289B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhongLighting;
+			productName = PhongLighting;
+			productReference = 832A6D0F1F8548770033289B /* PhongLighting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832A6D071F8548770033289B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mattia Fucili";
+				TargetAttributes = {
+					832A6D0E1F8548770033289B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 832A6D0A1F8548770033289B /* Build configuration list for PBXProject "PhongLighting" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 832A6D061F8548770033289B;
+			productRefGroup = 832A6D101F8548770033289B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832A6D0E1F8548770033289B /* PhongLighting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832A6D0B1F8548770033289B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A6D281F85491B0033289B /* phong.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		832A6D141F8548770033289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		832A6D151F8548770033289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		832A6D171F8548770033289B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		832A6D181F8548770033289B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832A6D0A1F8548770033289B /* Build configuration list for PBXProject "PhongLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832A6D141F8548770033289B /* Debug */,
+				832A6D151F8548770033289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832A6D161F8548770033289B /* Build configuration list for PBXNativeTarget "PhongLighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832A6D171F8548770033289B /* Debug */,
+				832A6D181F8548770033289B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832A6D071F8548770033289B /* Project object */;
+}

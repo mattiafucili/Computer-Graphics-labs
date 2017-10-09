@@ -1,0 +1,1 @@
+Tutti i progetti sono stati fatti con XCode, quindi per poterli eseguire su Visual Studio occorre copiare i file dentro un progetto Visual Studio e modificare gli #include per mettere le librerie Windows.
